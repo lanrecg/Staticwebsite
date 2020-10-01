@@ -11,5 +11,12 @@ git clone https://github.com/lanrecg/Staticwebsite.git
 cd Staticwebsite
 az webapp up --location uksouth --name [your_name] --html
 http://[your_name].azurewebsites.net
+
+```
+
+Deleting the Static website by deleting it resource group
+
+```
 az group delete --name [resource_group_name]
+
 ```
